@@ -1,0 +1,34 @@
+{
+  "name": "native-backend",
+  "version": "1.0.0",
+  "description": "A minimalist game for children.",
+  "homepage": "https://github.com/thissudhir/react-native-app#readme",
+  "bugs": {
+    "url": "https://github.com/thissudhir/react-native-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thissudhir/react-native-app.git"
+  },
+  "license": "MIT",
+  "author": "thissudhir & parakh2001",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.16.1",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.2.1",
+    "nodemon": "^3.1.10",
+    "prisma": "^6.16.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
